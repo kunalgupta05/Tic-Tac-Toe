@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+@import "resets";
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    height: $header-height;
+    background-color: $header-bgColor;
+    .chooseDifficulty{
+        padding:5px;
+    }   
+}

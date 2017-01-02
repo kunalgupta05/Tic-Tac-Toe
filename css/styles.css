@@ -1,0 +1,23 @@
+.btn-primary {
+  background-color: transparent;
+  border-color: transparent;
+  color: gray;
+}
+
+.btn-primary .caret {
+  border-top-color: gray;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  height: 25vh;
+  background-color: #f5f1f1;
+}
+
+header .chooseDifficulty {
+  padding: 5px;
+}
